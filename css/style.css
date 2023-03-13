@@ -1315,6 +1315,9 @@ select {
   .footer .footer__info .footer__airbooking {
     max-width: 400px;
   }
+  .footer .footer__info .footer__airbooking .airbooking__txt {
+    font-size: 24px;
+  }
   .footer .footer__info .footer__airbooking .airbooking__body {
     display: flex;
     justify-content: space-between;
@@ -1325,12 +1328,22 @@ select {
   .footer .footer__info .footer__links {
     width: 100%;
   }
+  .footer .footer__info .footer__links .link__header {
+    font-size: 34px;
+  }
   .footer .footer__info .footer__links .link__part {
     display: flex;
     justify-content: space-around;
+    font-size: 18px;
   }
   .footer .footer__info .footer__links .link__part .part__right {
     margin: 0 0 0 10px;
+  }
+  .footer .footer__info .connect__header {
+    font-size: 34px;
+  }
+  .footer .footer__info .connect__list {
+    margin: 30px 0;
   }
   .footer .footer__info .connect__list .connect-list__icon {
     margin: 0 0 0 5px;
