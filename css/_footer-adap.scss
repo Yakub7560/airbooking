@@ -106,10 +106,14 @@
             margin: 10px;
             margin: 0 auto;
          }
+
          // airbooking
          .footer__airbooking{
             max-width: 400px;
          // airbooking txt
+         .airbooking__txt{
+            font-size: 24px;
+         }
          .airbooking__body{
             display: flex;
             justify-content: space-between;
@@ -119,14 +123,21 @@
          }}
          
          .footer__links{
+            .link__header{
+               font-size: 34px;
+            }
          width: 100%;
             .link__part{
                display: flex;
                justify-content: space-around;
+               font-size: 18px;
                .part__right{
                   margin: 0 0 0 10px;
                }
             }
+         }
+         .connect__header{
+            font-size: 34px;
          }
          .connect__list{
             .connect-list__icon{
